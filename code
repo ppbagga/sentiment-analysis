@@ -1,0 +1,4 @@
+import tweepy
+from textblob import TextBlob
+wiki = TextBlob("Text goes here")
+wiki.sentiment.polarity
